@@ -1,0 +1,58 @@
+  body {
+
+    font-size: 14px;
+    font-family: Verdana, sans-serif;
+    text-align:center;
+    margin:0;
+  }
+
+  #shops{
+    list-style: none;
+    width: 780px;
+    margin:0 auto;
+  }
+
+
+
+a {
+  width: 250px;
+  height: 250px;
+  margin:5px;
+  float:left;
+  position: relative;
+  text-decoration: none;
+  background-size: cover;
+}
+
+.name{
+  color: transparent;
+  font-size: 20px;
+  position: absolute;
+  top: 10px;
+  z-index: 6;
+  display: block;
+  width:100%;
+}
+.shpr{
+  color: transparent;
+  font-size: 15px;
+  position: absolute;
+  top: 80px;
+  z-index: 6;
+  display: block;
+  display: block;
+  width:100%;
+}
+.sample:hover:after{
+  content: '';
+  background-color: rgba(0,0,0,0.7);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.sample:hover > span{
+  color:#FFFFFF;
+  opacity: 0.5;
+}
